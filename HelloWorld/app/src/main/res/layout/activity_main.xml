@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
-    android:background="#000"
+    android:padding="@dimen/padding_of_relative_layout_root"
+    android:background="@color/colorBlack"
     android:id="@+id/relative_layout_root"
     tools:context="com.wordpress.piedcipher.helloworld.MainActivity">
 
@@ -13,8 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world_TextView"
-        android:textColor="#FFF"
-        android:textSize="36sp"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/fontSize_of_hello_world_textview"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:fontFamily="monospace" />
