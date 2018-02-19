@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fontSize_of_hello_world_textview">36sp</dimen>
+    <dimen name="padding_of_relative_layout_root">16dp</dimen>
+</resources>
