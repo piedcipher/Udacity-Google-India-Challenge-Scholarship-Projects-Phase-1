@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Birthday Card Maker</string>
+    <string name="about_app">Make a Birthday Card!</string>
+    <string name="happy_birthday_to_EditText">Wish To?</string>
+    <string name="happy_birthday_from_EditText">Wish From?</string>
+    <string name="make_birthday_card_button">Make Birthday Card!</string>
+    <string name="input_error">Please fill both fields!</string>
+
+    <string name="menu_item_change_card">Change card\'s background</string>
+    <string name="menu_item_new_card">Make a new card</string>
+
+    <string name="happy_birthday_to_TextView">lorem ipsum</string>
+    <string name="happy_birthday_from_TextView">lorem ipsum</string>
+    <string name="android_party_ImageView_description">Birthday Card Background Image.</string>
+</resources>

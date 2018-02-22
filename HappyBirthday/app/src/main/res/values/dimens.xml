@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_of_about_app_TextView">8dp</dimen>
+    <dimen name="margin_of_happy_birthday_to_EditText">28dp</dimen>
+    <dimen name="margin_of_happy_birthday_from_EditText">28dp</dimen>
+    <dimen name="textSize_of_about_app">28sp</dimen>
+    <dimen name="margin_of_make_birthday_card_button">32dp</dimen>
+    <dimen name="padding_of_make_birthday_card_button">16dp</dimen>
+
+    <dimen name="textSize_of_happy_birthday_to_textview">28sp</dimen>
+    <dimen name="padding_of_happy_birthday_to_textview">16dp</dimen>
+    <dimen name="textSize_of_happy_birthday_from_textview">28sp</dimen>
+    <dimen name="padding_of_happy_birthday_from_textview">16dp</dimen>
+</resources>

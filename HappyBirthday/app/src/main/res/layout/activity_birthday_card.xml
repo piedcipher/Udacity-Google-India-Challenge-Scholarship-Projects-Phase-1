@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.piedcipher.happybirthday.BirthdayCardActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/birthday_card_background_image"
+        android:contentDescription="@string/android_party_ImageView_description"
+        android:src="@drawable/birthday_card_background_2"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:padding="@dimen/padding_of_happy_birthday_to_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/happy_birthday_to_TextView"
+        android:id="@+id/happy_birthday_to_TextView"
+        android:textSize="@dimen/textSize_of_happy_birthday_to_textview"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/whiteColor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/happy_birthday_from_TextView"
+        android:id="@+id/happy_birthday_from_TextView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="@dimen/padding_of_happy_birthday_from_textview"
+        android:textSize="@dimen/textSize_of_happy_birthday_from_textview"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/whiteColor" />
+
+</RelativeLayout>

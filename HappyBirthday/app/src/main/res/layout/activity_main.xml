@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey900"
+    tools:context="com.wordpress.piedcipher.happybirthday.MainActivity">
+
+    <TextView
+        android:id="@+id/about_app"
+        android:layout_margin="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_app"
+        android:textSize="@dimen/textSize_of_about_app"
+        android:textColor="@color/whiteColor"
+        android:textAlignment="center"
+        android:shadowColor="@color/colorAccent"
+        android:shadowDx="1.5"
+        android:shadowDy="1.5"
+        android:shadowRadius="3" />
+
+    <EditText
+        android:id="@+id/happy_birthday_to_EditText"
+        android:layout_below="@id/about_app"
+        android:layout_margin="@dimen/margin_of_happy_birthday_to_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/whiteColor"
+        android:hint="@string/happy_birthday_to_EditText"
+        android:textColorHint="@color/whiteColor"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/happy_birthday_from_EditText"
+        android:layout_margin="@dimen/margin_of_happy_birthday_from_EditText"
+        android:layout_below="@id/happy_birthday_to_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/whiteColor"
+        android:hint="@string/happy_birthday_from_EditText"
+        android:textColorHint="@color/whiteColor"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/make_birthday_card_button"
+        android:layout_margin="@dimen/margin_of_make_birthday_card_button"
+        android:padding="@dimen/padding_of_make_birthday_card_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/happy_birthday_from_EditText"
+        android:background="@color/colorPrimary"
+        android:text="@string/make_birthday_card_button"
+        android:textColor="@color/whiteColor"
+        android:layout_centerHorizontal="true"
+        android:foreground="?attr/selectableItemBackground" />
+
+</RelativeLayout>
