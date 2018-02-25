@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Richard Hendriks</string>
+    <string name="name_TextView">Richard Hendriks</string>
+    <string name="work_TextView">PIED PIPER</string>
+    <string name="quote_TextView">\"Am I not dressed formally enough? Should I zip the hoodie before the meeting?\"</string>
+    <string name="second_quote_TextView">\"I always knew I was missing something, and then when someone explained the concept of ‘game’ I remember very distinctly thinking ‘That’s what I don’t have.\"</string>
+</resources>

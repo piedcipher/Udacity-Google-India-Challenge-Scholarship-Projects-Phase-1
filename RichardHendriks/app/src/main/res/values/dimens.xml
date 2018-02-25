@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_of_richard_ImageView">260dp</dimen>
+
+    <dimen name="padding_of_work_TextView">6dp</dimen>
+    <dimen name="marginTop_of_work_TextView">20dp</dimen>
+    <dimen name="margin_of_work_TextView">8dp</dimen>
+    <dimen name="marginBottom_of_work_TextView">2dp</dimen>
+
+    <dimen name="margin_of_richard_TextView">8dp</dimen>
+    <dimen name="textSize_of_richard_TextView">30sp</dimen>
+
+    <dimen name="marginLeft_of_quote_TextView">12dp</dimen>
+    <dimen name="marginRight_of_quote_TextView">12dp</dimen>
+    <dimen name="marginTop_of_quote_TextView">28dp</dimen>
+    <dimen name="textSize_of_quote_TextView">18sp</dimen>
+
+    <dimen name="height_of_divider_view">1dp</dimen>
+    <dimen name="marginTop_of_divider_view">48dp</dimen>
+    <dimen name="marginRightLeft_of_divider_view">108dp</dimen>
+
+    <dimen name="marginTop_of_social_ImageView">28dp</dimen>
+    <dimen name="marginRightLeft_for_social_ImageView">24dp</dimen>
+    <dimen name="width_height_of_social_ImageView">36dp</dimen>
+</resources>
