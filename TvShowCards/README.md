@@ -1,6 +1,6 @@
 # TvShowCards
 
-It's a shows minimal, colorful cards for characters from TV shows: **Silicon Valley**, **Death Note**, **Rick & Morty** & **F.R.I.E.N.D.S**
+It shows minimal, colorful cards for characters from TV shows: **Silicon Valley**, **Death Note**, **Rick & Morty** & **F.R.I.E.N.D.S**
 
 ## Credits
 **App Design inspired from** - [UpLabs](https://www.uplabs.com/posts/profile-cards-web-interface)
@@ -9,3 +9,6 @@ It's a shows minimal, colorful cards for characters from TV shows: **Silicon Val
 
 ## Demo
 ### [YouTube](https://www.youtube.com/watch?v=AK1V_tECosE)
+
+## Note
+Actors' images are not included in `drawable directory` due to copyrights.
