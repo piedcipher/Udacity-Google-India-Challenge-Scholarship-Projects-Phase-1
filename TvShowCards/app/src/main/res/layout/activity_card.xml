@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_layout"
+    tools:context="com.wordpress.piedcipher.tvshowcards.CardActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/top_relative_layout">
+
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:id="@+id/character_ImageView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_of_name_ImageView"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:id="@+id/text_RelativeLayout"
+            android:layout_below="@id/character_ImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/work_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:text=""
+                android:layout_centerHorizontal="true"
+                android:padding="@dimen/padding_of_work_TextView"
+                android:layout_marginTop="@dimen/marginTop_of_work_TextView"
+                android:layout_marginBottom="@dimen/marginBottom_of_work_TextView"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/name_TextView"
+                android:layout_below="@+id/work_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_of_richard_TextView"
+                android:textColor="@color/colorWhite"
+                android:text=""
+                android:textSize="@dimen/textSize_of_richard_TextView"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/quote_TextView"
+                android:layout_below="@+id/name_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="@dimen/textSize_of_quote_TextView"
+                android:textStyle="italic"
+                android:layout_marginTop="@dimen/marginTop_of_quote_TextView"
+                android:layout_marginRight="@dimen/marginRight_of_quote_TextView"
+                android:layout_marginLeft="@dimen/marginLeft_of_quote_TextView"
+                android:layout_centerHorizontal="true" />
+
+            <View
+                android:id="@+id/divier_view"
+                android:layout_below="@id/quote_TextView"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_height="@dimen/height_of_divider_view"
+                android:layout_marginTop="@dimen/marginTop_of_divider_view"
+                android:layout_marginRight="@dimen/marginRightLeft_of_divider_view"
+                android:layout_marginLeft="@dimen/marginRightLeft_of_divider_view"
+                android:background="@color/colorWhite" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divier_view"
+                android:layout_margin="@dimen/marginTop_of_social_ImageView">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/width_height_of_social_ImageView"
+                        android:layout_height="@dimen/width_height_of_social_ImageView"
+                        android:src="@drawable/instagram"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="@dimen/marginRightLeft_for_social_ImageView"
+                        android:layout_marginRight="@dimen/marginRightLeft_for_social_ImageView" />
+
+                    <ImageView
+                        android:layout_width="@dimen/width_height_of_social_ImageView"
+                        android:layout_height="@dimen/width_height_of_social_ImageView"
+                        android:src="@drawable/twitter"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="@dimen/marginRightLeft_for_social_ImageView"
+                        android:layout_marginRight="@dimen/marginRightLeft_for_social_ImageView" />
+
+                    <ImageView
+                        android:layout_width="@dimen/width_height_of_social_ImageView"
+                        android:layout_height="@dimen/width_height_of_social_ImageView"
+                        android:src="@drawable/reddit"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="@dimen/marginRightLeft_for_social_ImageView"
+                        android:layout_marginRight="@dimen/marginRightLeft_for_social_ImageView" />
+
+                    <ImageView
+                        android:layout_width="@dimen/width_height_of_social_ImageView"
+                        android:layout_height="@dimen/width_height_of_social_ImageView"
+                        android:src="@drawable/youtube"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="@dimen/marginRightLeft_for_social_ImageView"
+                        android:layout_marginRight="@dimen/marginRightLeft_for_social_ImageView" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

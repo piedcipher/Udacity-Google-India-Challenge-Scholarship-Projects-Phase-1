@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TvShowCards</string>
+    <string name="activity_main_actionbar">Choose a TV Show</string>
+
+    <string name="show_silicon_valley">Silicon Valley</string>
+    <string name="show_death_note">Death Note</string>
+    <string name="show_friends">F.R.I.E.N.D.S</string>
+    <string name="show_two_and_a_half_men">Two And A Half Men</string>
+    <string name="show_rick_and_morty">Rick And Morty</string>
+</resources>

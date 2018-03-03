@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_of_tvshow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorGrey800"
+    tools:context="com.wordpress.piedcipher.tvshowcards.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="@dimen/margin_of_show_ImageView"
+            android:contentDescription="@string/show_silicon_valley"
+            android:src="@drawable/show_silicon_valley"
+            android:id="@+id/show_silicon_valley_ImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:onClick="getThisTvShowData" />
+
+        <ImageView
+            android:layout_margin="@dimen/margin_of_show_ImageView"
+            android:contentDescription="@string/show_death_note"
+            android:src="@drawable/show_death_note"
+            android:id="@+id/show_death_note_ImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:onClick="getThisTvShowData" />
+
+        <ImageView
+            android:layout_margin="@dimen/margin_of_show_ImageView"
+            android:contentDescription="@string/show_friends"
+            android:src="@drawable/show_friends"
+            android:id="@+id/show_friends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:onClick="getThisTvShowData" />
+
+        <ImageView
+            android:layout_margin="@dimen/margin_of_show_ImageView"
+            android:contentDescription="@string/show_rick_and_morty"
+            android:src="@drawable/show_rick_and_morty"
+            android:id="@+id/show_rick_and_morty_ImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:onClick="getThisTvShowData" />
+
+    </LinearLayout>
+
+</ScrollView>
