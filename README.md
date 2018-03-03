@@ -1,6 +1,6 @@
 # Udacity-Google-India-Challenge-Scholarship-Projects-Phase-1
 
-My Projects :pencil: for Udacity Google India Challenge Scholarship :mortar_board: in Android Basics Course :ledger: for Phase 1
+My Projects :pencil: for Udacity Google India Challenge Scholarship :mortar_board: in Android Basics Course :ledger: for Phase 1 **(Still Adding Projects :bulb:)**
 
 | # | Title | Description |
 | --- | --- | --- |
