@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wordpress.piedcipher.internationalwomensday.MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/generic_margin" />
+
+    <TextView
+        android:id="@+id/iwd_2005"
+        android:onClick="whichDoodle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iwd_2005"
+        android:textSize="@dimen/generic_textSize"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/generic_margin" />
+
+    <TextView
+        android:id="@+id/iwd_2009"
+        android:onClick="whichDoodle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iwd_2009"
+        android:textSize="@dimen/generic_textSize"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/generic_margin" />
+
+    <TextView
+        android:id="@+id/iwd_2011"
+        android:onClick="whichDoodle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iwd_2011"
+        android:textSize="@dimen/generic_textSize"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/generic_margin" />
+
+    <TextView
+        android:id="@+id/iwd_2012"
+        android:onClick="whichDoodle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iwd_2012"
+        android:textSize="@dimen/generic_textSize"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/generic_margin" />
+
+    <TextView
+        android:id="@+id/iwd_2013"
+        android:onClick="whichDoodle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iwd_2013"
+        android:textSize="@dimen/generic_textSize"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/generic_margin" />
+
+    <TextView
+        android:id="@+id/iwd_2014"
+        android:onClick="whichDoodle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iwd_2014"
+        android:textSize="@dimen/generic_textSize"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/generic_margin" />
+
+    <TextView
+        android:id="@+id/iwd_2015"
+        android:onClick="whichDoodle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iwd_2015"
+        android:textSize="@dimen/generic_textSize"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/generic_margin" />
+
+    <TextView
+        android:id="@+id/iwd_2016"
+        android:onClick="whichDoodle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iwd_2016"
+        android:textSize="@dimen/generic_textSize"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/generic_margin" />
+
+    <TextView
+        android:id="@+id/iwd_2017"
+        android:onClick="whichDoodle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iwd_2017"
+        android:textSize="@dimen/generic_textSize"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/generic_margin" />
+
+    <TextView
+        android:id="@+id/iwd_2018"
+        android:onClick="whichDoodle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iwd_2018"
+        android:textSize="@dimen/generic_textSize"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/generic_margin" />
+</LinearLayout>

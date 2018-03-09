@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Google Doodles</string>
+    <string name="iwd_2005">International Women\'s Day 2005</string>
+    <string name="iwd_2009">International Women\'s Day 2009</string>
+    <string name="iwd_2010">International Women\'s Day 2010</string>
+    <string name="iwd_2011">International Women\'s Day 2011</string>
+    <string name="iwd_2012">International Women\'s Day 2012</string>
+    <string name="iwd_2013">International Women\'s Day 2013</string>
+    <string name="iwd_2014">International Women\'s Day 2014</string>
+    <string name="iwd_2015">International Women\'s Day 2015</string>
+    <string name="iwd_2016">International Women\'s Day 2016</string>
+    <string name="iwd_2017">International Women\'s Day 2017</string>
+    <string name="iwd_2018">International Women\'s Day 2018</string>
+</resources>
