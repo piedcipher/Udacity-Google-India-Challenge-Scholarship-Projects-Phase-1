@@ -34,11 +34,11 @@
             android:orientation="horizontal"
             android:layout_margin="@dimen/generic_margin">
 
-            <ImageView
+            <TextView
                 android:contentDescription="@string/domain_svg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/domain"
+                android:drawableStart="@drawable/domain"
                 android:layout_gravity="center_vertical" />
 
             <TextView
@@ -46,7 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/udacity"
-                android:layout_marginLeft="@dimen/generic_Leftmargin"
+                android:layout_marginStart="@dimen/generic_Leftmargin"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"
                 android:textSize="@dimen/generic_textSize"
@@ -61,11 +61,11 @@
             android:orientation="horizontal"
             android:layout_margin="@dimen/generic_margin">
 
-            <ImageView
+            <TextView
                 android:contentDescription="@string/earth_svg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/earth"
+                android:drawableStart="@drawable/earth"
                 android:layout_gravity="center_vertical" />
 
             <TextView
@@ -73,7 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/website"
-                android:layout_marginLeft="@dimen/generic_Leftmargin"
+                android:layout_marginStart="@dimen/generic_Leftmargin"
                 android:textStyle="bold"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/generic_textSize"
@@ -87,11 +87,11 @@
             android:orientation="horizontal"
             android:layout_margin="@dimen/generic_margin">
 
-            <ImageView
+            <TextView
                 android:contentDescription="@string/map_maker_svg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/map_marker"
+                android:drawableStart="@drawable/map_marker"
                 android:layout_gravity="center_vertical" />
 
             <TextView
@@ -99,7 +99,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/address"
-                android:layout_marginLeft="@dimen/generic_Leftmargin"
+                android:layout_marginStart="@dimen/generic_Leftmargin"
                 android:textStyle="bold"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/generic_textSize"
@@ -114,11 +114,11 @@
             android:orientation="horizontal"
             android:layout_margin="@dimen/generic_margin">
 
-            <ImageView
+            <TextView
                 android:contentDescription="@string/phone_svg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/phone"
+                android:drawableStart="@drawable/phone"
                 android:layout_gravity="center_vertical" />
 
             <TextView
@@ -126,7 +126,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/contact"
-                android:layout_marginLeft="@dimen/generic_Leftmargin"
+                android:layout_marginStart="@dimen/generic_Leftmargin"
                 android:textStyle="bold"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/generic_textSize"
