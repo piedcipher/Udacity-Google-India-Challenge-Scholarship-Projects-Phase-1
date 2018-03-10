@@ -18,3 +18,19 @@ Displays information of **Udacity**, such as `website`, `address`, `contact`, an
 **2.**
 
 ![](https://i.imgur.com/d3yLigQ.png)
+
+**3.**
+
+![](https://imgur.com/j8aZELx.png)
+
+**4.**
+
+![](https://imgur.com/rkrzRox.png)
+
+**5.**
+
+![](https://imgur.com/sqYGUv3.png)
+
+**6.**
+
+![](https://imgur.com/llMbRNJ.png)
