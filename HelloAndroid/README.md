@@ -7,6 +7,9 @@ Displays information of **Udacity**, such as `website`, `address`, `contact`, an
 ## Special Thanks :heart:
 ### This app uses [carouselview](https://github.com/sayyam/carouselview) made by [Sayyam Mehmood](https://github.com/sayyam/)
 
+## Credits
+### Vector Images from - [MaterialDesignIcons](https://materialdesignicons.com/)
+
 ## Screenshots
 
 ### [Demo](https://vimeo.com/259460159)
