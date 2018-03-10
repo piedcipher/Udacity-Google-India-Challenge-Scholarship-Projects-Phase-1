@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:scrollbars="vertical"
+    android:orientation="vertical"
+    tools:context="com.wordpress.piedcipher.helloandroid.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="0dp">
+
+        <com.synnapps.carouselview.CarouselView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:contentDescription="@string/app_name"
+            android:id="@+id/udacity_image_carouselView"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            app:fillColor="@android:color/white"
+            app:pageColor="@android:color/black"
+            app:radius="@dimen/radius"
+            app:strokeColor="@color/strokeColor"
+            app:strokeWidth="@dimen/strokeWidth" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/generic_margin">
+
+            <ImageView
+                android:contentDescription="@string/domain_svg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/domain"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/udacity_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/udacity"
+                android:layout_marginLeft="@dimen/generic_Leftmargin"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/generic_textSize"
+                android:textColorLink="@android:color/white"
+                android:textIsSelectable="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/generic_margin">
+
+            <ImageView
+                android:contentDescription="@string/earth_svg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/earth"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/website_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/website"
+                android:layout_marginLeft="@dimen/generic_Leftmargin"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/generic_textSize"
+                android:textColorLink="@android:color/white"
+                android:textIsSelectable="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/generic_margin">
+
+            <ImageView
+                android:contentDescription="@string/map_maker_svg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/map_marker"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/address_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:layout_marginLeft="@dimen/generic_Leftmargin"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/generic_textSize"
+                android:textColorLink="@android:color/white"
+                android:textIsSelectable="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/generic_margin">
+
+            <ImageView
+                android:contentDescription="@string/phone_svg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/phone"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/contact_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact"
+                android:layout_marginLeft="@dimen/generic_Leftmargin"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/generic_textSize"
+                android:textColorLink="@android:color/white"
+                android:textIsSelectable="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

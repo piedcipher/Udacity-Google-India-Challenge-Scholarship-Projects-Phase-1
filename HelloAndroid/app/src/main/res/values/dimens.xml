@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_of_udacity_ImageView">180dp</dimen>
+
+    <dimen name="marginTop_of_udacity_TextView">16dp</dimen>
+    <dimen name="generic_textSize">24sp</dimen>
+
+    <dimen name="generic_padding">16dp</dimen>
+    <dimen name="generic_margin">12dp</dimen>
+    <dimen name="generic_Leftmargin">24dp</dimen>
+
+    <dimen name="strokeWidth">1dp</dimen>
+    <dimen name="radius">6dp</dimen>
+</resources>
