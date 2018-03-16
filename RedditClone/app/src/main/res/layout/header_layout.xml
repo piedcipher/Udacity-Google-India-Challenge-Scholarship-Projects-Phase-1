@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/reddit_logo_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textSize_of_reddit_logo_TextView"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_margin="@dimen/root_margin" />
+
+        <SearchView
+            android:id="@+id/reddit_search_SearchView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/little_generic_width_height"
+            android:layout_margin="@dimen/root_margin"
+            android:queryHint="Search Reddit"
+            android:background="@color/_424242" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/home_popular_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/home_LinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/home_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/big_generic_textSize"
+                android:fontFamily="sans-serif"
+                android:layout_margin="@dimen/root_margin"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/active_tab"
+                android:layout_width="@dimen/width_of_active_tab_View"
+                android:layout_height="@dimen/height_of_active_tab_View"
+                android:layout_gravity="center"
+                android:background="@color/colorAccent" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/popular_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/popular"
+            android:layout_gravity="center"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/big_generic_textSize"
+            android:fontFamily="sans-serif"
+            android:layout_margin="@dimen/root_margin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/preferences_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:padding="@dimen/padding_of_preference_TextView">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/fire"
+            android:layout_marginStart="@dimen/generic_margin" />
+
+        <TextView
+            android:id="@+id/preferences"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_of_preference_TextView"
+            android:text="@string/hotPosts"
+            android:textColor="@color/_BDBDBD"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="@dimen/textSize_of_preference_TextView"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding_of_preference_TextView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/menu_down"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/view_sequential"/>
+
+    </LinearLayout>
+
+</LinearLayout>

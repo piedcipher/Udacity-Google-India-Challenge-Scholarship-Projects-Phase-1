@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="root_margin">8dp</dimen>
+    <dimen name="generic_margin">4dp</dimen>
+    <dimen name="little_generic_margin">2dp</dimen>
+    <dimen name="image_placeholder_margin">16dp</dimen>
+    <dimen name="little_generic_width_height">40dp</dimen>
+    <dimen name="generic_width_height">64dp</dimen>
+    <dimen name="generic_textSize">12sp</dimen>
+    <dimen name="big_generic_textSize">20sp</dimen>
+
+    <dimen name="textSize_of_reddit_logo_TextView">22sp</dimen>
+
+    <dimen name="width_of_active_tab_View">104dp</dimen>
+    <dimen name="height_of_active_tab_View">2dp</dimen>
+
+    <dimen name="height_of_preference_TextView">40dp</dimen>
+    <dimen name="padding_of_preference_TextView">6dp</dimen>
+    <dimen name="textSize_of_preference_TextView">12sp</dimen>
+
+    <dimen name="postTitle_TextView">16sp</dimen>
+    <dimen name="bottom_navigation_bar_padding">12dp</dimen>
+
+    <dimen name="generic_post_stats_padding">8dp</dimen>
+    <dimen name="generic_post_stats_margin">8dp</dimen>
+
+    <dimen name="generic_pipe_size">20dp</dimen>
+
+    <dimen name="marginEnd_of_reddit_fab">20dp</dimen>
+    <dimen name="marginBottom_of_reddit_fab">80dp</dimen>
+</resources>

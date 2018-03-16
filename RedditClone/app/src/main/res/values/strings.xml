@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">reddit</string>
+
+    <string name="subreddit">r/loremispum</string>
+    <string name="postTitle">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</string>
+    <string name="timestamp">2h</string>
+    <string name="source">i.redd.it</string>
+    <string name="circle">●</string>
+
+    <string name="voteCount">50.0k</string>
+    <string name="commentCount">10.0k</string>
+    <string name="share">Share</string>
+
+    <string name="home">Home</string>
+    <string name="popular">Popular</string>
+    <string name="hotPosts">Hot Posts</string>
+
+    <string-array name="subredditList">
+        <item>r/Android</item>
+        <item>r/SiliconValleyHBO</item>
+        <item>r/PewdiepieSubmissions</item>
+        <item>r/Steam</item>
+        <item>r/Ubuntu</item>
+        <item>r/deathnote</item>
+        <item>r/dogecoin</item>
+        <item>r/GetMotivated</item>
+        <item>r/google</item>
+        <item>r/IndianFood</item>
+        <item>r/LifeProTips</item>
+        <item>r/lineapp</item>
+        <item>r/linux_gaming</item>
+        <item>r/mindlyinteresting</item>
+        <item>r/MinimalWallpaper</item>
+    </string-array>
+
+</resources>

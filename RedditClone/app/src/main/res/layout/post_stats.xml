@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/voteCount_LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/generic_post_stats_padding">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <ImageView
+            android:contentDescription="@string/voteCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_up_bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voteCount"
+            android:text="@string/voteCount"
+            android:textSize="@dimen/generic_textSize"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginRight="@dimen/generic_post_stats_margin"
+            android:layout_marginLeft="@dimen/generic_post_stats_margin" />
+
+        <ImageView
+            android:contentDescription="@string/voteCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_down_bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="@dimen/generic_pipe_size"
+        android:id="@+id/pipe"
+        android:background="@color/_BDBDBD"
+        android:layout_margin="@dimen/generic_margin" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <ImageView
+            android:contentDescription="@string/commentCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/comment"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/commentCount"
+            android:text="@string/commentCount"
+            android:textSize="@dimen/generic_textSize"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginRight="@dimen/generic_post_stats_margin"
+            android:layout_marginLeft="@dimen/generic_post_stats_margin" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="@dimen/generic_pipe_size"
+        android:id="@+id/pipe2"
+        android:background="@color/_BDBDBD"
+        android:layout_margin="@dimen/generic_margin" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <ImageView
+            android:contentDescription="@string/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/share" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/share"
+            android:text="@string/share"
+            android:textSize="@dimen/generic_textSize"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/generic_post_stats_margin" />
+
+    </LinearLayout>
+
+</LinearLayout>
