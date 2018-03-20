@@ -17,7 +17,7 @@
             android:id="@+id/subredditName"
             android:text="@string/subreddit"
             android:textSize="@dimen/generic_textSize"
-            android:textColor="@android:color/darker_gray"
+            android:textColor="@color/_757575"
             android:layout_margin="@dimen/little_generic_margin" />
 
         <TextView
@@ -26,7 +26,7 @@
             android:id="@+id/dot"
             android:text="@string/circle"
             android:textSize="@dimen/generic_textSize"
-            android:textColor="@android:color/darker_gray"
+            android:textColor="@color/_757575"
             android:textStyle="bold"
             android:layout_margin="@dimen/little_generic_margin" />
 
@@ -36,7 +36,7 @@
             android:id="@+id/timestamp"
             android:text="@string/timestamp"
             android:textSize="@dimen/generic_textSize"
-            android:textColor="@android:color/darker_gray"
+            android:textColor="@color/_757575"
             android:layout_margin="@dimen/little_generic_margin" />
 
         <TextView
@@ -45,7 +45,7 @@
             android:id="@+id/dot2"
             android:text="@string/circle"
             android:textSize="@dimen/generic_textSize"
-            android:textColor="@android:color/darker_gray"
+            android:textColor="@color/_757575"
             android:textStyle="bold"
             android:layout_margin="@dimen/little_generic_margin" />
 
@@ -55,7 +55,7 @@
             android:id="@+id/source"
             android:text="@string/source"
             android:textSize="@dimen/generic_textSize"
-            android:textColor="@android:color/darker_gray"
+            android:textColor="@color/_757575"
             android:layout_margin="@dimen/little_generic_margin" />
 
     </LinearLayout>
@@ -80,7 +80,7 @@
             android:id="@+id/postTitle"
             android:text="@string/postTitle"
             android:textSize="@dimen/postTitle_TextView"
-            android:textColor="@android:color/white"
+            android:textColor="@color/_616161"
             android:layout_toStartOf="@id/postImage"
             android:layout_margin="@dimen/little_generic_margin" />
 
