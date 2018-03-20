@@ -4,8 +4,14 @@
     <color name="colorPrimaryDark">#000</color>
     <color name="colorAccent">#2196F3</color>
     <color name="_212121">#212121</color>
+    <color name="_121213">#121213</color>
     <color name="_424242">#424242</color>
     <color name="_BDBDBD">#757575</color>
+    <color name="_ff444444">#ff444444</color>
+    <color name="_272729">#272729</color>
+    <color name="_616161">#616161</color>
+    <color name="_757575">#757575</color>
+
 
     <string-array name="colorHexcode">
         <item>#F44336</item>
