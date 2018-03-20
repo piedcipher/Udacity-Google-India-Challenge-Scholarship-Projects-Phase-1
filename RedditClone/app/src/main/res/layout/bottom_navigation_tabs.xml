@@ -3,43 +3,55 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@android:color/black"
-    android:padding="@dimen/bottom_navigation_bar_padding">
+    android:background="@color/_121213"
+    android:orientation="vertical">
 
-    <ImageView
-        android:contentDescription="@string/app_name"
-        android:layout_gravity="center_vertical"
-        android:src="@drawable/reddit"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/_272729"/>
 
-    <ImageView
-        android:contentDescription="@string/app_name"
-        android:layout_width="0dp"
-        android:layout_weight="1"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/shape_plus" />
+        android:orientation="horizontal"
+        android:padding="@dimen/bottom_navigation_bar_padding">
 
-    <ImageView
-        android:contentDescription="@string/app_name"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
-        android:src="@drawable/message_processing" />
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/reddit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
 
-    <ImageView
-        android:contentDescription="@string/app_name"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
-        android:src="@drawable/email" />
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shape_plus" />
 
-    <ImageView
-        android:contentDescription="@string/app_name"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
-        android:src="@drawable/account" />
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/message_processing" />
+
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/email" />
+
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/account" />
+    </LinearLayout>
 
 </LinearLayout>
