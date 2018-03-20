@@ -1,7 +1,7 @@
 # RedditClone
 Clone of Reddit's Layout. (Currently only Home page)
 
-![](https://i.imgur.com/Kjd4vvr.png)
+![](https://i.imgur.com/1ieh5qL.png)
 
 ## Demo
 <a href="https://vimeo.com/260438195"><img src="https://i.imgur.com/mpt5NuK.png" /></a>
