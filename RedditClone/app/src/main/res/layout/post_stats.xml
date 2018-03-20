@@ -26,7 +26,7 @@
             android:textSize="@dimen/generic_textSize"
             android:textAlignment="center"
             android:textStyle="bold"
-            android:textColor="@android:color/darker_gray"
+            android:textColor="@color/_757575"
             android:layout_marginRight="@dimen/generic_post_stats_margin"
             android:layout_marginLeft="@dimen/generic_post_stats_margin" />
 
@@ -42,7 +42,7 @@
         android:layout_width="1dp"
         android:layout_height="@dimen/generic_pipe_size"
         android:id="@+id/pipe"
-        android:background="@color/_BDBDBD"
+        android:background="@color/_272729"
         android:layout_margin="@dimen/generic_margin" />
 
     <LinearLayout
@@ -65,7 +65,7 @@
             android:textSize="@dimen/generic_textSize"
             android:textStyle="bold"
             android:textAlignment="center"
-            android:textColor="@android:color/darker_gray"
+            android:textColor="@color/_757575"
             android:layout_marginRight="@dimen/generic_post_stats_margin"
             android:layout_marginLeft="@dimen/generic_post_stats_margin" />
 
@@ -75,7 +75,7 @@
         android:layout_width="1dp"
         android:layout_height="@dimen/generic_pipe_size"
         android:id="@+id/pipe2"
-        android:background="@color/_BDBDBD"
+        android:background="@color/_272729"
         android:layout_margin="@dimen/generic_margin" />
 
     <LinearLayout
@@ -97,7 +97,7 @@
             android:text="@string/share"
             android:textSize="@dimen/generic_textSize"
             android:textAlignment="center"
-            android:textColor="@android:color/darker_gray"
+            android:textColor="@color/_757575"
             android:textStyle="bold"
             android:layout_marginLeft="@dimen/generic_post_stats_margin" />
 
