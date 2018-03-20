@@ -80,7 +80,7 @@
             android:id="@+id/postTitle"
             android:text="@string/postTitle"
             android:textSize="@dimen/postTitle_TextView"
-            android:textColor="@color/_616161"
+            android:textColor="@color/_BDBDBD"
             android:layout_toStartOf="@id/postImage"
             android:layout_margin="@dimen/little_generic_margin" />
 
