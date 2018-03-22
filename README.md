@@ -11,5 +11,6 @@ My Projects :pencil: for Udacity Google India Challenge Scholarship :mortar_boar
 | 5 | [Happy International Women's Day](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-1/tree/master/HappyInternationalWomensDay) | Submission for **Women'sDayApp** in `#lesson02_layoutspart1` |
 | 6 | [HelloAndroid](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-1/tree/master/HelloAndroid) | **Lesson 5 : First Project -** Build a Single Screen App |
 | 7 | [RedditClone](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-1/tree/master/RedditClone) | Submission for **Replica Of An App's Layout** in `#lesson02_layoutspart1` |
+| 8 | [Reddit Landing Page](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-1/tree/master/RedditLandingPage) | Submission for **Make A Landing Page Challenge** in `#showcase` |
 
 ![My Scholarship Badge](https://s3-us-west-2.amazonaws.com/udacity-email/Scholarships/Google-Scholarship-India-Badge.png)
