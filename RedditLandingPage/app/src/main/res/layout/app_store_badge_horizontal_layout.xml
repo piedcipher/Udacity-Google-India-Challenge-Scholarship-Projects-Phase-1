@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_of_reddit_downloads_ImageView"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/download_on_the_app_store_badge"
+        android:layout_weight="1"
+        android:onClick="openAppleAppStore"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_of_reddit_downloads_ImageView" />
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/get_it_on_google_play"
+        android:layout_weight="1"
+        android:onClick="openGooglePlayStore"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_of_reddit_downloads_ImageView" />
+
+</LinearLayout>

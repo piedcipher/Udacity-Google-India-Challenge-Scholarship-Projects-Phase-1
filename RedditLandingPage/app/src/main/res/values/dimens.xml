@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_of_reddit_logo_ImageView">48dp</dimen>
+    <dimen name="margin_of_reddit_tagline_TextView">32dp</dimen>
+    <dimen name="margin_of_features">12dp</dimen>
+    <dimen name="margin_of_footer">16dp</dimen>
+
+    <dimen name="textSize_of_reddit_tagline_TextView">32sp</dimen>
+    <dimen name="textSize_of_reddit_tagline_1_TextView">22sp</dimen>
+
+    <dimen name="margin_of_reddit_downloads_ImageView">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

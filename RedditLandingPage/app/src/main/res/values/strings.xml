@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Reddit</string>
+    <string name="reddit_logo">Reddit Logo</string>
+    <string name="reddit_anywhere">Reddit anywhere\nwith the official app\nfor iPhone and\nAndroid</string>
+    <string name="reddit_tagline_1">Inline images, themes, and simpler navigation means easier discussion, easier discovery, easier cats, easier app.</string>
+
+    <string name="reddit_feature_1_title">Browse and upvote the best of the web</string>
+    <string name="reddit_feature_1_desc">Get the latest and newest news, trends, and memes on the Internet first on Reddit. Best of all, you get to decide what’s worthy: Top content rises thanks to your upvotes.</string>
+
+    <string name="reddit_feature_2_title">Join the discussion with millions of redditors</string>
+    <string name="reddit_feature_2_desc">Redditors connect over the unique issues and topics that matter to them.\n\nThreaded comments make it easier to join and read comments, and an improved inbox means you can see messages sent directly to you, your comment </string>
+
+    <string name="reddit_feature_3_title">Share images, articles, and your own stories</string>
+    <string name="reddit_feature_3_desc">The best part about Reddit? You.\n\nWhether you’re into movies or space travel, coding or baking, world news headlines or Hollywood gossip, astronomy or astrology—or all of the above—instantly share your content and ideas with millions.</string>
+
+    <string name="reddit_feature_4_title">Discover thousands of active communities</string>
+    <string name="reddit_feature_4_desc">There’s a Reddit community for every subject imaginable: Your favorite sports team, relationship advice, memes, silly gifs, the latest in news and politics—all in real time. What’s that you say? “What about a community just for photographs of cats standing on their hind legs?” We got that, too. (Cat.)</string>
+
+    <string name="reddit_feature_5_title">Customize your Reddit experience with themes</string>
+    <string name="reddit_feature_5_desc">With night theme (and more to come!), options to browse in either compact view or card view, the new Reddit app lets you peruse, read, discuss, and learn however you want.</string>
+
+    <string name="reddit_footer_support">Need Support?</string>
+    <string name="reddit_footer_support_">Click Here</string>
+
+    <string name="reddit_footer_social_links">Follow Reddit: </string>
+
+    <string name="reddit_footer">Content Policy  |  Privacy Policy  |  User Agreement</string>
+    <string name="reddit_footer_">© 2016 Reddit, Inc. All Rights Reserved.</string>
+    <string name="title_activity_reddit_features">RedditFeaturesActivity</string>
+</resources>

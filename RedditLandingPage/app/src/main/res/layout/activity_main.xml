@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:contentDescription="@string/reddit_anywhere"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/reddit_header_bg"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:onClick="knowMore"
+        android:id="@+id/reddit_logo_ImageView"
+        android:contentDescription="@string/reddit_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/reddit_logo"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/margin_of_reddit_logo_ImageView" />
+
+    <TextView
+        android:layout_below="@id/reddit_logo_ImageView"
+        android:id="@+id/reddit_anywhere_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reddit_anywhere"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textSize_of_reddit_tagline_TextView"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginStart="@dimen/margin_of_reddit_tagline_TextView"
+        android:layout_marginEnd="@dimen/margin_of_reddit_tagline_TextView"
+        android:layout_marginBottom="@dimen/margin_of_reddit_tagline_TextView"/>
+
+    <include
+        android:layout_below="@id/reddit_anywhere_TextView"
+        layout="@layout/app_store_badge_vertical_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+
+</RelativeLayout>

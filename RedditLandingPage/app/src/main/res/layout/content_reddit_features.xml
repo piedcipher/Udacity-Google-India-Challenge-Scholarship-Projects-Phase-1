@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/_212121">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin_of_features">
+
+        <TextView
+            android:id="@+id/reddit_tagline_1_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/reddit_tagline_1"
+            android:textSize="@dimen/textSize_of_reddit_tagline_1_TextView"
+            android:textColor="@color/colorAccent"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <!-- Reddit Feature 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:contentDescription="@string/app_name"
+                android:id="@+id/reddit_feature_1_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ico_penguin"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_of_features" />
+
+            <TextView
+                android:id="@+id/reddit_feature_1_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reddit_feature_1_title"
+                android:textSize="@dimen/textSize_of_reddit_tagline_1_TextView"
+                android:textColor="@color/_FFF"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <TextView
+            android:id="@+id/reddit_feature_1_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reddit_feature_1_desc"
+            android:textSize="@dimen/textSize_of_reddit_tagline_1_TextView"
+            android:textColor="@color/_E0E0E0"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:id="@+id/reddit_feature_1_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone_01"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <!-- Reddit Feature 1 End -->
+
+
+        <!-- Reddit Feature 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:contentDescription="@string/app_name"
+                android:id="@+id/reddit_feature_2_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ico_doge"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_of_features" />
+
+            <TextView
+                android:id="@+id/reddit_feature_2_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reddit_feature_2_title"
+                android:textSize="@dimen/textSize_of_reddit_tagline_1_TextView"
+                android:textColor="@color/_FFF"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/_FFB300"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <TextView
+            android:id="@+id/reddit_feature_2_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reddit_feature_2_desc"
+            android:textSize="@dimen/textSize_of_reddit_tagline_1_TextView"
+            android:textColor="@color/_E0E0E0"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:id="@+id/reddit_feature_2_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone_02"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <!-- Reddit Feature 2 End -->
+
+
+        <!-- Reddit Feature 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/reddit_feature_3_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ico_lambeosaurus"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_of_features" />
+
+            <TextView
+                android:id="@+id/reddit_feature_3_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reddit_feature_3_title"
+                android:textSize="@dimen/textSize_of_reddit_tagline_1_TextView"
+                android:textColor="@color/_FFF"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/_94E044"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <TextView
+            android:id="@+id/reddit_feature_3_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reddit_feature_3_desc"
+            android:textSize="@dimen/textSize_of_reddit_tagline_1_TextView"
+            android:textColor="@color/_E0E0E0"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:id="@+id/reddit_feature_3_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone_03"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <!-- Reddit Feature 3 End -->
+
+
+        <!-- Reddit Feature 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:contentDescription="@string/app_name"
+                android:id="@+id/reddit_feature_4_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ico_moose"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_of_features" />
+
+            <TextView
+                android:id="@+id/reddit_feature_4_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reddit_feature_4_title"
+                android:textSize="@dimen/textSize_of_reddit_tagline_1_TextView"
+                android:textColor="@color/_FFF"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/_F57F17"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <TextView
+            android:id="@+id/reddit_feature_4_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reddit_feature_4_desc"
+            android:textSize="@dimen/textSize_of_reddit_tagline_1_TextView"
+            android:textColor="@color/_E0E0E0"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:id="@+id/reddit_feature_4_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone_04"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <!-- Reddit Feature 4 End -->
+
+
+        <!-- Reddit Feature 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:contentDescription="@string/app_name"
+                android:id="@+id/reddit_feature_5_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ico_narwhale"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_of_features" />
+
+            <TextView
+                android:id="@+id/reddit_feature_5_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reddit_feature_5_title"
+                android:textSize="@dimen/textSize_of_reddit_tagline_1_TextView"
+                android:textColor="@color/_FFF"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/_2196F3"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <TextView
+            android:id="@+id/reddit_feature_5_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reddit_feature_5_desc"
+            android:textSize="@dimen/textSize_of_reddit_tagline_1_TextView"
+            android:textColor="@color/_E0E0E0"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:id="@+id/reddit_feature_5_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone_05"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_of_features" />
+
+        <!-- Reddit Feature 5 End -->
+
+        <include layout="@layout/footer_layout" />
+        
+    </LinearLayout>
+
+</ScrollView>
