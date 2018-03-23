@@ -4,7 +4,7 @@ Landing Page of Reddit.
 ![](https://i.imgur.com/3ed18kgg.png)
 
 ## Demo (Video)
-<img src="https://i.imgur.com/mpt5NuK.png" />
+<a target="_blank" href="https://plus.google.com/photos/photo/113458486376346088132/6535922661056283714"><img src="https://i.imgur.com/mpt5NuK.png" /></a>
 
 ## Image Credits
 | Drawable | Source |
