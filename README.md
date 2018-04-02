@@ -1,4 +1,4 @@
-# Udacity-Google-India-Challenge-Scholarship-Projects-Phase-1
+# [Udacity-Google-India-Challenge-Scholarship-Projects-Phase-1](https://piedcipher.github.io/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-1/index.html)
 
 My Projects :pencil: for Udacity Google India Challenge Scholarship :mortar_board: in Android Basics Course :ledger: for Phase 1 **(Still Adding Projects :bulb:)**
 
