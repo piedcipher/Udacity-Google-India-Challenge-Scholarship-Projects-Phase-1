@@ -165,7 +165,7 @@ public class GameActivity extends AppCompatActivity {
             winnerTitle = playerTwo + " Won!";
             winnerMessage = playerTwo + " scored " + scoreOfTeamB + " & " + playerOne + " scored " + scoreOfTeamA;
         } else {
-            winnerTitle = "It'a Tie!!";
+            winnerTitle = "It's a Tie!!";
             winnerMessage = playerOne + " scored " + scoreOfTeamA + " & " + playerTwo + " scored " + scoreOfTeamB;
         }
 
