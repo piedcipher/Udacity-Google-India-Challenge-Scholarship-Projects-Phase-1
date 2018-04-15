@@ -12,6 +12,8 @@ My Projects :pencil: for Udacity Google India Challenge Scholarship :mortar_boar
 | 6 | [HelloAndroid](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-1/tree/master/HelloAndroid) | **Lesson 5 : First Project -** Build a Single Screen App |
 | 7 | [RedditClone](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-1/tree/master/RedditClone) | Submission for **Replica Of An App's Layout** in `#lesson02_layoutspart1` |
 | 8 | [Reddit Landing Page](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-1/tree/master/RedditLandingPage) | Submission for **Make A Landing Page Challenge** in `#showcase` |
-| 9 | [WeeklyChallengeOne](https://github.com/piedcipher/WeeklyChallengeOne) | Submission for **WeeklyChallengeOne** in `#showcase` |
+| 9 | [My GitHub Page](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-1/blob/master/index.html) | Submission for **GitHub Activity 2** in `#git_github` |
+| 10 | [WeeklyChallengeOne](https://github.com/piedcipher/WeeklyChallengeOne) | Submission for **WeeklyChallengeOne** in `#showcase` |
+| 11 | [HobermanSwitchPitchBall](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-1/tree/master/HobermanSwitchPitchBall) | **Lesson 9 : Project Counter Court -** Counter Court App |
 
 ![My Scholarship Badge](https://s3-us-west-2.amazonaws.com/udacity-email/Scholarships/Google-Scholarship-India-Badge.png)
