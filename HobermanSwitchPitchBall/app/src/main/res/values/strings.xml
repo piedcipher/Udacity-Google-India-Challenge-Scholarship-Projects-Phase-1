@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Hoberman Switch Pitch Ball</string>
+    <string name="game_inspired_from_button">A Game Inspired From Silicon Valley Show</string>
+    <string name="title_activity_player">Select Any 2 Players</string>
+    <string name="title_activity_switchpitch">Select a Switch Pitch Ball</string>
+
+    <string name="player_description_for_imageView">Player</string>
+    <string name="next_textView">Next</string>
+    <string name="previous_textView">Previous</string>
+    <string name="ball_description_for_imageView">Ball</string>
+    <string name="switchpitch_instruction">Click On A SwitchPitch Ball to View it</string>
+
+    <string name="team_a_textView">Team A</string>
+    <string name="team_b_textView">Team B</string>
+    <string name="team_a_score_textView">0</string>
+    <string name="team_b_score_textView">0</string>
+    <string name="always_blue_button">Always Blue</string>
+    <string name="alwaysss_blueee_button">Alwaysss Blueeee</string>
+    <string name="catch_miss_button">Catch Miss!</string>
+    <string name="view_result_button">View Result</string>
+</resources>

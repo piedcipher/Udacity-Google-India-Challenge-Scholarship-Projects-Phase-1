@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="next_button">16dp</dimen>
+    <dimen name="generic_margin">16dp</dimen>
+    <dimen name="textSize_timer_textView">32sp</dimen>
+    <dimen name="height_switchPitch_imageView">100dp</dimen>
+    <dimen name="textSize_team_textView">14sp</dimen>
+    <dimen name="padding_team_textView">16dp</dimen>
+    <dimen name="marginBotton_view_result_button">32dp</dimen>
+    <dimen name="margin_always_blue_button">24dp</dimen>
+    <dimen name="textSize_score_textView">56sp</dimen>
+    <dimen name="paddingBotton_score_textView">24dp</dimen>
+    <dimen name="marginBottom_always_blue_Button">8dp</dimen>
+    <dimen name="height_playerImage_imageView">110dp</dimen>
+</resources>

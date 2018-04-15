@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/current_switchpitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/team_a_switch_pitch_imageView"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_switchPitch_imageView"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:contentDescription="@string/title_activity_switchpitch"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/timer_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="@dimen/textSize_timer_textView" />
+
+            <ImageView
+                android:id="@+id/team_b_switch_pitch_imageView"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_switchPitch_imageView"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:contentDescription="@string/title_activity_switchpitch"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/score_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/current_switchpitch"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/team_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_team_textView"
+                    android:text="@string/team_a_textView"
+                    android:textColor="@color/colorTeamName"
+                    android:textSize="@dimen/textSize_team_textView" />
+
+                <ImageView
+                    android:id="@+id/team_a_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_playerImage_imageView"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/title_activity_switchpitch"
+                    android:paddingBottom="@dimen/paddingBotton_score_textView" />
+
+                <TextView
+                    android:id="@+id/team_a_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/paddingBotton_score_textView"
+                    android:text="@string/team_a_score_textView"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/textSize_score_textView" />
+
+                <Button
+                    android:id="@+id/team_a_always_blue_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginBottom_always_blue_Button"
+                    android:layout_marginLeft="@dimen/margin_always_blue_button"
+                    android:layout_marginRight="@dimen/margin_always_blue_button"
+                    android:onClick="alwaysBlue"
+                    android:text="@string/always_blue_button" />
+
+                <Button
+                    android:id="@+id/team_a_alwaysss_blueee_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginBottom_always_blue_Button"
+                    android:layout_marginLeft="@dimen/margin_always_blue_button"
+                    android:layout_marginRight="@dimen/margin_always_blue_button"
+                    android:onClick="alwaysBlue"
+                    android:text="@string/alwaysss_blueee_button" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/generic_margin"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/team_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_team_textView"
+                    android:text="@string/team_b_textView"
+                    android:textColor="@color/colorTeamName"
+                    android:textSize="@dimen/textSize_team_textView" />
+
+                <ImageView
+                    android:id="@+id/team_b_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_playerImage_imageView"
+                    android:contentDescription="@string/title_activity_switchpitch"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/paddingBotton_score_textView" />
+
+                <TextView
+                    android:id="@+id/team_b_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/paddingBotton_score_textView"
+                    android:text="@string/team_b_score_textView"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/textSize_score_textView" />
+
+                <Button
+                    android:id="@+id/team_b_always_blue_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginBottom_always_blue_Button"
+                    android:layout_marginLeft="@dimen/margin_always_blue_button"
+                    android:layout_marginRight="@dimen/margin_always_blue_button"
+                    android:onClick="alwaysBlue"
+                    android:text="@string/always_blue_button" />
+
+                <Button
+                    android:id="@+id/team_b_alwaysss_blueee_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/marginBottom_always_blue_Button"
+                    android:layout_marginLeft="@dimen/margin_always_blue_button"
+                    android:layout_marginRight="@dimen/margin_always_blue_button"
+                    android:onClick="alwaysBlue"
+                    android:text="@string/alwaysss_blueee_button" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/view_result_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/score_board"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/generic_margin"
+            android:layout_marginBottom="@dimen/marginBotton_view_result_button"
+            android:background="@color/colorPrimary"
+            android:onClick="displayResult"
+            android:text="@string/view_result_button"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+</ScrollView>

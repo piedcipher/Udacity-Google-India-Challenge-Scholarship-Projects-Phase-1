@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#2E7D32</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPlayerSelected">#81C784</color>
+    <color name="colorTeamName">#616161</color>
+</resources>
