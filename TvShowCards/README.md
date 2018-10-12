@@ -8,7 +8,7 @@ It shows minimal, colorful cards for characters from TV shows: **Silicon Valley*
 **Vector Images from** - [MaterialDesignIcons](https://materialdesignicons.com)
 
 ## Demo
-### [YouTube](https://youtu.be/2vXHkOLSo00)
+### [YouTube](https://youtu.be/m04qDXcabm8)
 
 ## Note
 Actors' images are not included in `drawable directory` due to copyrights.
